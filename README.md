@@ -38,7 +38,18 @@ give user name, password , email
 npm publis
 ```
 4.add module to git
+```
+go to working directory 
+open git bash //cmd tool for git
+git init // initializing git repository
+git remote add origin https://github.com/PraveenParashar/CustomeMessage.git // your remote repo
+git commit -m 'testing' // commit 
+git push origin master // push changes
+if not working 
+git pull https://github.com/PraveenParashar/CustomeMessage.git
+git push origin master --force
 
+```
 5.install package in other project
 ## Installation
 ```
